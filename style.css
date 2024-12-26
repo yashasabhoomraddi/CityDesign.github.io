@@ -8,13 +8,14 @@
 /* Global Styles */
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #f3f4f7, #e3e8ff);
+    background: linear-gradient(135deg, #eef2f3, #8e9eab);
     margin: 0;
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     min-height: 100vh;
+    color: #333;
 }
 
 /* Main Container */
@@ -23,17 +24,15 @@ section {
     padding: 2rem;
     width: 90%;
     max-width: 800px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
-    text-align: center;
     margin-top: 30px;
-    border: 1px solid #eaeaea;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 section:hover {
     transform: translateY(-10px);
-    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
 }
 
 /* Header */
@@ -41,18 +40,18 @@ header {
     background: linear-gradient(135deg, #6a11cb, #2575fc);
     color: white;
     padding: 2rem;
-    border-radius: 12px 12px 0 0;
+    border-radius: 12px;
+    text-align: center;
     margin-bottom: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
     font-size: 2.5rem;
-    margin: 0;
-    letter-spacing: 1px;
+    margin-bottom: 1rem;
 }
 
 header p {
-    margin: 1rem 0 0;
     font-size: 1.2rem;
     opacity: 0.9;
 }
@@ -60,8 +59,8 @@ header p {
 /* Section Titles */
 h2 {
     color: #2575fc;
-    margin-bottom: 1rem;
     font-size: 1.8rem;
+    margin-bottom: 1rem;
     border-bottom: 2px solid #eaeaea;
     display: inline-block;
     padding-bottom: 0.5rem;
@@ -88,12 +87,8 @@ ul li:hover {
     background: #e6f7ff;
 }
 
-ul li::before {
-    content: '\2022';
-    color: #2575fc;
-    font-weight: bold;
-    margin-right: 0.5rem;
-    font-size: 1.5rem;
+ul li strong {
+    color: #333;
 }
 
 /* Links */
