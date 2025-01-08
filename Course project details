@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Project Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2, h3 {
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f4f4f4;
+            text-align: left;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Course Project Report</h1>
+    <h2>Data Structures and Algorithms</h2>
+    <h3>Smart City Design</h3>
+    <p>School of Computer Science and Engineering<br>2023-24</p>
+
+    <h2>Contents</h2>
+    <ol>
+        <li>Course and Team Details</li>
+        <li>Introduction</li>
+        <li>Problem Definition</li>
+        <li>Functionality Selection</li>
+        <li>Functionality Analysis</li>
+        <li>Conclusion</li>
+        <li>References</li>
+    </ol>
+
+    <h2>1. Course and Team Details</h2>
+    <h3>1.1 Course Details</h3>
+    <table>
+        <tr><th>Course Name</th><td>Data Structures and Algorithms</td></tr>
+        <tr><th>Semester</th><td>III</td></tr>
+        <tr><th>Year</th><td>2023-24</td></tr>
+        <tr><th>Instructor</th><td>Mr. Manjunath Akki</td></tr>
+    </table>
+
+    <h3>1.2 Team Details</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Si. No.</th>
+                <th>Roll No.</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td>102</td><td>Wasif Ali</td></tr>
+            <tr><td>2</td><td>105</td><td>Yashas A B</td></tr>
+            <tr><td>3</td><td>108</td><td>Hemant</td></tr>
+            <tr><td>4</td><td></td><td>Farhan</td></tr>
+        </tbody>
+    </table>
+
+    <h2>2. Introduction</h2>
+    <p>As urbanization continues to surge, the demand for efficient and sustainable public transportation systems also grows in tandem...</p>
+
+    <h2>3. Problem Definition</h2>
+    <p>Implementation of an efficient Subway System...</p>
+
+    <h3>3.1 Domain</h3>
+    <p>The domain of subway systems and networks involves the design, optimization, and management of rapid transit systems...</p>
+
+    <h3>3.2 Module Description</h3>
+    <p>Predictive maintenance and hygiene management modules were developed...</p>
+
+    <h2>4. Functionality Selection</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Functionality Name</th>
+                <th>Known</th>
+                <th>Unknown</th>
+                <th>Principles Applicable</th>
+                <th>Algorithms</th>
+                <th>Data Structures</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Predictive Maintenance</td>
+                <td>Known details here</td>
+                <td>Unknown details here</td>
+                <td>Decomposition, Pattern-recognition...</td>
+                <td>Quick sort</td>
+                <td>Vectors, Structures, Arrays</td>
+            </tr>
+            <tr>
+                <td>Hygiene Management</td>
+                <td>Known details here</td>
+                <td>Unknown details here</td>
+                <td>Decomposition, Pattern Recognition...</td>
+                <td>Merge sort</td>
+                <td>Vectors, String, Structure</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>5. Functionality Analysis</h2>
+    <p>Details about functionality analysis for both modules...</p>
+
+   
+
+    <h2>6. References</h2>
+    <p>[1] Thomas H. Cormen, Clifford Stein, Ronald L. Rivest...</p>
+</body>
+
+</html>
