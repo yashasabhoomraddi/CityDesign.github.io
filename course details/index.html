@@ -226,6 +226,41 @@
     <h2>5. Functionality Analysis</h2>
 
       <h3>1) Predictive Maintenance:</h3>
+      <h3> Time efficiency:</h3>
+    <h2>1. Input Collection:</h2>
+    <ul>
+        <li><strong>Operation:</strong> Collecting the train number from the user.</li>
+        <li><strong>Complexity:</strong> O(1) for the input operation.</li>
+    </ul>
+
+    <h2>2. Quick Sort (Sorting Trains by Next Maintenance Year):</h2>
+    <ul>
+        <li><strong>Operation:</strong> Sorting the vector of trains using Quick Sort.</li>
+        <li><strong>Complexity:</strong></li>
+        <ol>
+            <li>Best/Average Case: O(n log n), where n is the number of trains.</li>
+            <li>Worst Case: O(n²), if the pivot selection is poor (e.g., always choosing the smallest or largest element as the pivot).</li>
+        </ol>
+    </ul>
+
+    <h2>3. Maintenance Year Calculation:</h2>
+    <ul>
+        <li><strong>Operation:</strong> Calculating the next maintenance year for each train.</li>
+        <li><strong>Complexity:</strong> O(1) per train.</li>
+    </ul>
+
+    <h2>4. Displaying Sorted Data:</h2>
+    <ul>
+        <li><strong>Operation:</strong> Printing the sorted train data.</li>
+        <li><strong>Complexity:</strong> O(n) where n is the number of trains.</li>
+    </ul>
+
+    <h2>Space Complexity:</h2>
+    <ul>
+        <li><strong>1. Train Data Storage:</strong> You store the list of trains in a vector<Train>, which requires O(n) space.</li>
+        <li><strong>2. Temporary Storage for Sorting:</strong> Quick Sort requires O(log n) auxiliary space for recursion stack in the average case and O(n) in the worst case (if the recursion depth reaches the size of the input due to poor pivot selection).</li>
+        <li><strong>Total Space Complexity:</strong> O(n) + O(log n)</li>
+    </ul>
 
     <table>
 
@@ -298,10 +333,42 @@
 
 
     <h3>2) Hygiene Maintenance:</h3>
+      <h3>2) Time Efficiency:</h3>
+   
+
+    <h2>1. Input Collection:</h2>
+    <ul>
+        <li><strong>Operation:</strong> Collecting the station number and complaint choice from the user.</li>
+        <li><strong>Complexity:</strong> O(1) for each individual input operation.</li>
+    </ul>
+
+    <h2>2. Storing Complaint Data:</h2>
+    <ul>
+        <li><strong>Operation:</strong> Saving the complaint data to a file and writing to it.</li>
+        <li><strong>Complexity:</strong> O(1) for appending a single entry to the file.</li>
+    </ul>
+
+    <h2>3. Reading and Storing Complaints from File:</h2>
+    <ul>
+        <li><strong>Operation:</strong> Reading the entire file to load complaints.</li>
+        <li><strong>Complexity:</strong> O(n) where n is the number of complaints in the file.</li>
+    </ul>
+
+    <h2>4. Merge Sort (Sorting Complaints):</h2>
+    <ul>
+        <li><strong>Operation:</strong> Sorting the complaints by station number using merge sort.</li>
+        <li><strong>Complexity:</strong> O(n log n) where n is the number of complaints.</li>
+    </ul>
+
+    <h2>5. Displaying Sorted Complaints:</h2>
+    <ul>
+        <li><strong>Operation:</strong> Printing the sorted complaints to the console.</li>
+        <li><strong>Complexity:</strong> O(n) where n is the number of complaints.</li>
+    </ul>
 
     <table>
 
-        <caption>Train Maintenance Workflow</caption>
+     
 
         <thead>
 
