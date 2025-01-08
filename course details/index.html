@@ -29,6 +29,7 @@
         th, td {
             border: 1px solid #ddd;
             padding: 8px;
+            text-align: left;
         }
 
         th {
@@ -56,7 +57,7 @@
     <h1>Course Project Report</h1>
     <h1>Data Structures and Algorithms</h1>
     <h1>Smart City Design</h1>
-    <p>School of Computer Science and Engineering<br>2023-24</p>
+    
 
     <h2>Contents</h2>
     <ol>
@@ -97,133 +98,130 @@
     </table>
 
     <h2>2. Introduction</h2>
-    <p>As urbanization continues to surge, the demand for efficient and sustainable public transportation systems becomes also grows in tandem. As cities expand, infrastructure often struggles to keep pace with the growing population, leading to traffic congestion, air pollution, and inefficient public transportation systems. These issues not only hinder economic growth but also reduce the quality of life for residents. Among these challenges, urban mobility remains a critical concern, as existing systems fail to cater to the increasing demands of daily commuters. This project focuses on designing a smart city with a special emphasis on innovative solutions for its subway systems and networks.  Reading the white paper has made it clear that there is an immediate need for solutions that would change the world for the better.</p><p>One of the prominent problems people are facing today is the ease of travel.
+    <p>As urbanization continues to surge, the demand for efficient and sustainable public transportation systems becomes increasingly critical. As cities expand, infrastructure often struggles to keep pace with the growing population, leading to traffic congestion, air pollution, and inefficient public transportation systems. These issues not only hinder economic growth but also reduce the quality of life for residents. Among these challenges, urban mobility remains a critical concern, as existing systems fail to cater to the increasing demands of daily commuters. This project focuses on designing a smart city with a special emphasis on innovative solutions for its subway systems and networks. </p>
 
-Solving these urban challenges is essential to creating cities that are resilient and efficient. This project focuses on designing a smart city with advanced subway systems, using modern technologies to provide sustainable and effective transportation solutions. By reducing traffic congestion, cutting down carbon emissions, and improving access to public transport, the project aims to tackle the critical problems caused by urbanization. It seeks to promote sustainable urban growth while addressing key societal issues such as mobility and accessibility disparities.
-</p>
+    <p>Solving these urban challenges is essential to creating cities that are resilient and efficient. This project focuses on designing a smart city with advanced subway systems, using modern technologies to provide sustainable and effective transportation solutions. By reducing traffic congestion, cutting down carbon emissions, and improving access to public transport, the project aims to tackle the critical problems caused by urbanization. It seeks to promote sustainable urban growth while addressing key societal issues such as mobility and accessibility disparities.</p>
 
     <h2>3. Problem Definition</h2>
-    <p>Implementation of an efficient Subway System:
-Amongst the different modes of travel present today, railways and/or subway system is one of the cheapest and most frequently chosen mode of transport by the public. Today in India we face a myriad of problem in the railways system, be it overcrowding due to improper scheduling of trains or lack of facilities offered to the public waiting to board one. Efficient commute is the need of the hour and that provided us with the impetus to work on resolving this issue.
+    <p>Implementation of an efficient Subway System: 
+    Amongst the different modes of travel present today, railways and/or subway systems are one of the cheapest and most frequently chosen modes of transport by the public. Today in India, we face a myriad of problems in the railway system, such as overcrowding due to improper scheduling of trains and a lack of facilities offered to the public waiting to board. Efficient commute is the need of the hour, and that provided us with the impetus to work on resolving this issue.</p>
 
-The domain of subway systems and networks involves the design, optimization, and management of rapid transit systems. It includes key aspects such as route planning, real-time monitoring, scheduling, passenger experience enhancement, etc. 
-</p>
+    <p>The domain of subway systems and networks involves the design, optimization, and management of rapid transit systems. It includes key aspects such as route planning, real-time monitoring, scheduling, passenger experience enhancement, etc.</p>
 
     <h2>4. Functionality Selection</h2>
-     <!DOCTYPE html>
-<html>
-<head>
-  <title>Functionality Selection</title>
-  <style>
-    table {
-      border-collapse: collapse;
-      width: 100%;
-    }
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Functionality Selection</title>
+        <style>
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
 
-    th, td {
-      border: 1px solid black;
-      padding: 8px;
-      text-align: left;
-    }
+            th, td {
+                border: 1px solid black;
+                padding: 8px;
+                text-align: left;
+            }
 
-    th {
-      background-color: #f2f2f2;
-    }
-  </style>
-</head>
-<body>
+            th {
+                background-color: #f2f2f2;
+            }
+        </style>
+    </head>
+    <body>
+  <h2>Functionality Selection</h2>
 
-<h2>Functionality Selection</h2>
+    <table>
+        <tr>
+            <th>Sl. No.</th>
+            <th>Functionality Name</th>
+            <th>Known</th>
+            <th>Unknown</th>
+            <th>Principles applicable</th>
+            <th>Algorithms</th>
+            <th>Data Structures</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Predictive Maintenance</td>
+            <td>
+                <ul>
+                    <li>The module predicts train maintenance requirements based on their age, birth year, and predefined maintenance intervals.</li>
+                    <li>Maintenance is scheduled every 3 years from the train's birth year.</li>
+                    <li>The focus is on preventing unexpected breakdowns and ensuring system reliability.</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Static schedules may not account for factors like usage intensity or unforeseen issues.</li>
+                    <li>Need to explore in detail due to its lack of usage in the past for solving problems.</li>
+                    <li>Limited Complaint Types: There are only four complaint types defined. Future scalability could be an issue if new complaint types need to be added dynamically.</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Decomposition</li>
+                    <li>Pattern recognition</li>
+                    <li>Pre-computing</li>
+                    <li>Divide and Conquer</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Quick sort</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Vectors</li>
+                    <li>Structures</li>
+                    <li>Arrays</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Hygiene Maintenance</td>
+            <td>
+                <ul>
+                    <li>The module is designed to collect and log hygiene-related complaints for subway stations.</li>
+                    <li>Complaints are related to issues like overflowing trash cans, dirty restrooms, pest sightings, and train spillage.</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Scalability: The system needs to handle more stations and more complaint types in a way that doesn't involve manual updates to the code.</li>
+                    <li>Learning how to pre-define data in the file system.</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Decomposition</li>
+                    <li>Pattern Recognition</li>
+                    <li>Abstraction</li>
+                    <li>Brave and Cautious Travel</li>
+                    <li>Pre Computing</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Merge sort</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Vectors</li>
+                    <li>String</li>
+                    <li>Structures</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
 
-<table>
-  <tr>
-    <th>Sl. No.</th>
-    <th>Functionality Name</th>
-    <th>Known</th>
-    <th>Unknown</th>
-    <th>Principles applicable</th>
-    <th>Algorithms</th>
-    <th>Data Structures</th>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>Predictive Maintenance</td>
-    <td>
-      <ul>
-        <li>The module predicts train maintenance requirements based on their age, birth year, and predefined maintenance intervals.</li>
-        <li>Maintenance is scheduled every 3 years from the train's birth year.</li>
-        <li>The focus is on preventing unexpected breakdowns and ensuring system reliability.</li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li>Static schedules may not account for factors like usage intensity or unforeseen issues.</li>
-        <li>Need to explore in detail due to its lack of usage in the past for solving problems.</li>
-        <li>Limited Complaint Types: There are only four complaint types defined. Future scalability could be an issue if new complaint types need to be added dynamically.</li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li>Decomposition</li>
-        <li>Pattern recognition</li>
-        <li>Pre-computing</li>
-        <li>Divide and Conquer</li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li>Quick sort</li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li>Vectors</li>
-        <li>Structures</li>
-        <li>Arrays</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Hygiene Maintenance</td>
-    <td>
-      <ul>
-        <li>The module is designed to collect and log hygiene-related complaints for subway stations.</li>
-        <li>Complaints are related to issues like overflowing trash cans, dirty restrooms, pest sightings, and train spillage.</li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li>Scalability: The system needs to handle more stations and more complaint types in a way that doesn't involve manual updates to the code.</li>
-        <li>Learning how to pre-define data in the file system.</li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li>Decomposition</li>
-        <li>Pattern Recognition</li>
-        <li>Abstraction</li>
-        <li>Brave and Cautious Travel</li>
-        <li>Pre Computing</li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li>Merge sort</li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li>Vectors</li>
-        <li>String</li>
-        <li>Structures</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-</body>
-</html>
+    </body>
+    </html>
 
     <h2>5. Functionality Analysis</h2>
 
@@ -250,64 +248,4 @@ The domain of subway systems and networks involves the design, optimization, and
             </tr>
             <tr>
                 <td>Validate Input</td>
-                <td>Ensures the user's input is valid (within the range of complaint options).</td>
-            </tr>
-            <tr>
-                <td>Log Complaint</td>
-                <td>Opens the file, writes the complaint details in a formatted way, and closes the file.</td>
-            </tr>
-            <tr>
-                <td>Provide Feedback</td>
-                <td>Informs the user whether the complaint was logged successfully or if an error occurred.</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <h3>2) Hygiene Maintenance:</h3>
-    <table>
-        <caption>Train Maintenance Workflow</caption>
-        <thead>
-            <tr>
-                <th>Step</th>
-                <th>Description</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Initialize Train Data</td>
-                <td>A list of 20 predefined train objects is created, each with its attributes (name, age, birth year).</td>
-            </tr>
-            <tr>
-                <td>Quick Sort Execution</td>
-                <td>Trains are sorted based on their next maintenance year using Quick Sort.</td>
-            </tr>
-            <tr>
-                <td>Input Train Number</td>
-                <td>The user is prompted to select a train number (1-20).</td>
-            </tr>
-            <tr>
-                <td>Input Validation</td>
-                <td>Checks if the train number is within the valid range.</td>
-            </tr>
-            <tr>
-                <td>Next Maintenance Calculation</td>
-                <td>The next maintenance year is calculated using the train's birth year and the rule of 5-year intervals.</td>
-            </tr>
-            <tr>
-                <td>Maintenance Status Update</td>
-                <td>Flags trains that require immediate maintenance based on the current year and next maintenance year.</td>
-            </tr>
-            <tr>
-                <td>Display Details</td>
-                <td>Outputs the details of the selected train and all trains sorted by their next maintenance year.</td>
-            </tr>
-        </tbody>
-    </table>
-
- 
-
-    <h2>6. References</h2>
-    <p>[1] Thomas H. Cormen, Clifford Stein, Ronald L. Rivest...</p>
-</body>
-
-</html>
+                <td>Ensures the user's input is valid (within the range
