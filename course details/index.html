@@ -56,7 +56,7 @@
     <h1>Course Project Report</h1>
     <h1>Data Structures and Algorithms</h1>
     <h1>Smart City Design</h1>
-    <h1>School of Computer Science and Engineering<br>2023-24</h1>
+    <p>School of Computer Science and Engineering<br>2023-24</p>
 
     <h2>Contents</h2>
     <ol>
@@ -110,36 +110,120 @@ The domain of subway systems and networks involves the design, optimization, and
 </p>
 
     <h2>4. Functionality Selection</h2>
-     <table>
-        <thead>
-            <tr>
-                <th>Functionality Name</th>
-                <th>Known</th>
-                <th>Unknown</th>
-                <th>Principles Applicable</th>
-                <th>Algorithms</th>
-                <th>Data Structures</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Predictive Maintenance</td>
-                <td>The module predicts train maintenance requirements based on their age, birth year, and predefined maintenance intervals.</td>
-                <td>Static schedules may not account for factors like usage intensity or unforeseen issues.</td>
-                <td>Decomposition, Pattern-recognition, Pre-computing</td>
-                <td>Quick Sort</td>
-                <td>Vectors, Structures, Arrays</td>
-            </tr>
-            <tr>
-                <td>Hygiene Management</td>
-                <td>The module is designed to collect and log hygiene-related complaints for subway stations.</td>
-                <td>Limited complaint types and future scalability challenges.</td>
-                <td>Decomposition, Pattern Recognition, Abstraction</td>
-                <td>Merge Sort</td>
-                <td>Vectors, Strings, Structures</td>
-            </tr>
-        </tbody>
-    </table>
+     <!DOCTYPE html>
+<html>
+<head>
+  <title>Functionality Selection</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Functionality Selection</h2>
+
+<table>
+  <tr>
+    <th>Sl. No.</th>
+    <th>Functionality Name</th>
+    <th>Known</th>
+    <th>Unknown</th>
+    <th>Principles applicable</th>
+    <th>Algorithms</th>
+    <th>Data Structures</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Predictive Maintenance</td>
+    <td>
+      <ul>
+        <li>The module predicts train maintenance requirements based on their age, birth year, and predefined maintenance intervals.</li>
+        <li>Maintenance is scheduled every 3 years from the train's birth year.</li>
+        <li>The focus is on preventing unexpected breakdowns and ensuring system reliability.</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Static schedules may not account for factors like usage intensity or unforeseen issues.</li>
+        <li>Need to explore in detail due to its lack of usage in the past for solving problems.</li>
+        <li>Limited Complaint Types: There are only four complaint types defined. Future scalability could be an issue if new complaint types need to be added dynamically.</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Decomposition</li>
+        <li>Pattern recognition</li>
+        <li>Pre-computing</li>
+        <li>Divide and Conquer</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Quick sort</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Vectors</li>
+        <li>Structures</li>
+        <li>Arrays</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Hygiene Maintenance</td>
+    <td>
+      <ul>
+        <li>The module is designed to collect and log hygiene-related complaints for subway stations.</li>
+        <li>Complaints are related to issues like overflowing trash cans, dirty restrooms, pest sightings, and train spillage.</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Scalability: The system needs to handle more stations and more complaint types in a way that doesn't involve manual updates to the code.</li>
+        <li>Learning how to pre-define data in the file system.</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Decomposition</li>
+        <li>Pattern Recognition</li>
+        <li>Abstraction</li>
+        <li>Brave and Cautious Travel</li>
+        <li>Pre Computing</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Merge sort</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Vectors</li>
+        <li>String</li>
+        <li>Structures</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
 
     <h2>5. Functionality Analysis</h2>
 
@@ -220,10 +304,9 @@ The domain of subway systems and networks involves the design, optimization, and
         </tbody>
     </table>
 
-    <h2>6. Conclusion</h2>
-    <p>The Algorithms course has been an eye-opener...</p>
+ 
 
-    <h2>7. References</h2>
+    <h2>6. References</h2>
     <p>[1] Thomas H. Cormen, Clifford Stein, Ronald L. Rivest...</p>
 </body>
 
