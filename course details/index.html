@@ -225,27 +225,169 @@
 
     <h2>5. Functionality Analysis</h2>
 
-    <h3>1) Predictive Maintenance:</h3>
-    <table>
-        <thead>
-            <tr>
-                <th>Step</th>
-                <th>Description</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Initialize File Path</td>
-                <td>Dynamically determines the file path to store complaints.</td>
-            </tr>
-            <tr>
-                <td>Collect Station Number</td>
-                <td>Prompts the user to input the subway station number.</td>
-            </tr>
-            <tr>
-                <td>Display Complaint Options</td>
-                <td>Displays predefined hygiene-related complaints and collects the user's choice.</td>
-            </tr>
-            <tr>
-                <td>Validate Input</td>
-                <td>Ensures the user's input is valid (within the range
+      <h3>1) Predictive Maintenance:</h3>
+
+    <table>
+
+        <thead>
+
+            <tr>
+
+                <th>Step</th>
+
+                <th>Description</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+
+                <td>Initialize File Path</td>
+
+                <td>Dynamically determines the file path to store complaints.</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Collect Station Number</td>
+
+                <td>Prompts the user to input the subway station number.</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Display Complaint Options</td>
+
+                <td>Displays predefined hygiene-related complaints and collects the user's choice.</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Validate Input</td>
+
+                <td>Ensures the user's input is valid (within the range of complaint options).</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Log Complaint</td>
+
+                <td>Opens the file, writes the complaint details in a formatted way, and closes the file.</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Provide Feedback</td>
+
+                <td>Informs the user whether the complaint was logged successfully or if an error occurred.</td>
+
+            </tr>
+
+        </tbody>
+
+    </table>
+
+
+
+    <h3>2) Hygiene Maintenance:</h3>
+
+    <table>
+
+        <caption>Train Maintenance Workflow</caption>
+
+        <thead>
+
+            <tr>
+
+                <th>Step</th>
+
+                <th>Description</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+
+                <td>Initialize Train Data</td>
+
+                <td>A list of 20 predefined train objects is created, each with its attributes (name, age, birth year).</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Quick Sort Execution</td>
+
+                <td>Trains are sorted based on their next maintenance year using Quick Sort.</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Input Train Number</td>
+
+                <td>The user is prompted to select a train number (1-20).</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Input Validation</td>
+
+                <td>Checks if the train number is within the valid range.</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Next Maintenance Calculation</td>
+
+                <td>The next maintenance year is calculated using the train's birth year and the rule of 5-year intervals.</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Maintenance Status Update</td>
+
+                <td>Flags trains that require immediate maintenance based on the current year and next maintenance year.</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Display Details</td>
+
+                <td>Outputs the details of the selected train and all trains sorted by their next maintenance year.</td>
+
+            </tr>
+
+        </tbody>
+
+    </table>
+
+<h2>6. References</h2>
+    <ul>
+        <li>Thomas H. Cormen, Clifford Stein, Ronald L. Rivest, and Charles E. Leiserson. 2001. Introduction to Algorithms (2nd ed.). McGraw-Hill Higher Education.</li>
+        <li>GeeksforGeeks. (n.d.). https://www.geeksforgeeks.org</li>
+        <li>National Association of City Transportation Officials (NACTO). (n.d.). Transit Street Design Guide. Retrieved from https://nacto.org</li>
+    </ul>
+
+ 
+
+</body>
+
+
+
+</html>
